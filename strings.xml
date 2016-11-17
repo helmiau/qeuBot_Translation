@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- General -->
+    <string name="app_name">qeuBot</string>
+    <string name="app_version">Version 1.05</string>
+    <string name="acc_desc">Required to be switched on for qeuBot to work. Your privacy is maintained and no data is collected at all.</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="premium">You are already a premium user</string>
+    <string name="not_premium">Please purchase the app to use this feature</string>
+    <string name="tampered">App seems to be tampered. Premium features will not work</string>
+    <string name="do_not_pirate">Please do not pirate the app. Purchase will not go through unless the pirating app(s) are uninstalled</string>
+    <string name="storage_perm">Storage permission is required to save files to the SD card. Denying may cause the app to crash randomly.</string>
+    <string name="loading">Loading</string>
+    <string name="via_qeubot">- via qeuBot</string>
+
+    <!-- Dictionary User Agent -->
+    <string name="template_user_agent" formatted="false">"%s/%s (Linux; Android)"</string>
+
+    <!-- Preference Categories -->
+    <string name="gen_pref_cat">General</string>
+    <string name="news_pref_cat">News</string>
+    <string name="bing_pref_cat">Bing</string>
+    <string name="giphy_pref_cat">Giphy</string>
+    <string name="about_pref_cat">About</string>
+    <string name="extra_pref_cat">Extras</string>
+
+    <!-- Preference Titles -->
+    <string name="append_title">Append app name to result</string>
+    <string name="auto_send_result_title">Auto send result</string>
+    <string name="accessibility_title">Accessibility Service</string>
+    <string name="news_number_title">Number of articles to return</string>
+    <string name="theme_title">Dark Theme</string>
+    <string name="bing_safe_title">Safe Search</string>
+    <string name="bing_count_title">Number of results to return</string>
+    <string name="bing_api_title">Bing API Key</string>
+    <string name="original_gif_title">Get higher quality GIFs</string>
+    <string name="developer_title">Developer</string>
+    <string name="email_title">Email Developer</string>
+    <string name="rate_title">Rate app</string>
+    <string name="guide_title">View Guide</string>
+    <string name="buy_title">Buy App</string>
+    <string name="wa_title">Choose unofficial WhatsApp Mod</string>
+    <string name="show_toast_title">Show toast on command</string>
+
+    <!-- Preference Summaries -->
+    <string name="append_sum">Appends app name to the end of result</string>
+    <string name="auto_send_result_sum">Automatically send the results</string>
+    <string name="accessibility_on_sum">Accessibility Service is enabled</string>
+    <string name="accessibility_off_sum">Accessibility Service seems to be disabled. Enable it to resume functionality of the app.</string>
+    <string name="theme_sum">Use Dark Theme throughout the app</string>
+    <string name="bing_api_sum">Input API Key to make use of Bing services</string>
+    <string name="original_gif_sum">Will take longer time to load and increase file size upto 3 times (Not recommended)</string>
+    <string name="developer_sum">EatHeat</string>
+    <string name="email_sum">Send me a mail if you want any added features or want to report a bug</string>
+    <string name="rate_sum">Rate and say thanks if you are enjoying the app</string>
+    <string name="buy_sum">Buy the app to enjoy all the features</string>
+    <string name="show_toast_sum">Useful when unsure if command has been triggered or not (slow internet connections, etc)</string>
+
+    <!-- Imdb Parameters -->
+    <string name="imdb_year">Year:\u0020</string>
+    <string name="imdb_released">Released:\u0020</string>
+    <string name="imdb_rated">Rated:\u0020</string>
+    <string name="imdb_runtime">Runtime:\u0020</string>
+    <string name="imdb_genre">Genre:\u0020</string>
+    <string name="imdb_director">Director:\u0020</string>
+    <string name="imdb_writer">Writer:\u0020</string>
+    <string name="imdb_actors">Actors:\u0020</string>
+    <string name="imdb_plot">Plot:\u0020</string>
+    <string name="imdb_language">Language:\u0020</string>
+    <string name="imdb_country">Country:\u0020</string>
+    <string name="imdb_awards">Awards:\u0020</string>
+    <string name="imdb_metascore">Metascore:\u0020</string>
+    <string name="imdb_rating">imdbRating:\u0020</string>
+    <string name="imdb_link">Link:\u0020</string>
+    <string name="imdb_t_meter">TomatoMeter:\u0020</string>
+    <string name="imdb_t_rating">Tomato Rating:\u0020</string>
+    <string name="imdb_t_user_rating">Tomato User Rating:\u0020</string>
+
+    <!-- Bing -->
+    <string name="bing_safe_off">Off</string>
+    <string name="bing_safe_moderate">Moderate</string>
+    <string name="bing_safe_strict">Strict</string>
+
+    <!-- WhatsApp -->
+    <string name="wa_official">Official WhatsApp (com.whatsapp)</string>
+    <string name="wa_gb">GBWhatsApp (com.gbwhatsapp)</string>
+    <string name="wa_yo">YoWhatsApp (com.yowhatsapp)</string>
+
+    <!-- Weather Parameters -->
+    <string name="weather_date">Date:\u0020</string>
+    <string name="weather_text">Weather:\u0020</string>
+    <string name="weather_temperature">Temperature:\u0020</string>
+    <string name="weather_wind_speed">Wind Speed:\u0020</string>
+    <string name="weather_wind_chill">Wind Chill:\u0020</string>
+    <string name="weather_humidity">Humidity:\u0020</string>
+    <string name="weather_pressure">Pressure:\u0020</string>
+    <string name="weather_visibility">Visibility:\u0020</string>
+    <string name="weather_day">Day\u0020</string>
+    <string name="weather_temperature_lowest">Lowest Temperature:\u0020</string>
+    <string name="weather_temperature_highest">Highest Temperature:\u0020</string>
+
+    <!-- Error Parameters -->
+    <string name="connect_failed">Failed to connect</string>
+    <string name="parse_failed">Failed to parse</string>
+    <string name="location_failed">Location not found</string>
+
+    <!-- Introduction Titles -->
+    <string name="it_wiki">Wikipedia</string>
+    <string name="it_calculator">Calculator</string>
+    <string name="it_news">News</string>
+    <string name="it_imdb">IMDb</string>
+    <string name="it_giphy">Gif</string>
+    <string name="it_bing">Bing Images</string>
+    <string name="it_weather">Weather</string>
+    <string name="it_horoscope">Horoscope</string>
+
+    <!-- Introduction Summaries -->
+    <string name="is_wiki">Use the @wiki command to fetch the summary of any Wikipedia article \n\nExample: Paris @wiki</string>
+    <string name="is_calculator">Use the @calc command to perform calculations right inside the textbox. Supports addition, subtraction, muliplication, division and parentheses \n\nExample: (96/8) - 9*5 @calc</string>
+    <string name="is_news">Use @news to fetch the news regarding any subject \n\nExample: Android @news</string>
+    <string name="is_imdb">Use @imdb to fetch movie ratings. Also supports Rotten Tomatoes \n\nExample: Inception @imdb</string>
+    <string name="is_giphy">Use @gif to fecth gifs from Giphy \n\nExample: Cats @gif</string>
+    <string name="is_bing">Use @pic to fetch images from Bing \n\nExample: Emma Watson @pic</string>
+    <string name="is_weather">Use @weather to fetch current day\'s weather and @forecast for 5-day forecast of any city \n\nExample: Miami @weather, Miami @forecast</string>
+    <string name="is_horoscope">Use @horoscope to fetch daily horoscope \n\nExample: Sagittarius @horoscope</string>
+
+</resources>

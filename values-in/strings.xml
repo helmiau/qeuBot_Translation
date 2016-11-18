@@ -1,6 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="abc_action_mode_done">Selesai</string>
+
+    <!-- General -->
+    <string name="app_name">qeuBot</string>
+    <string name="app_version">Versi 1.05</string>
+    <string name="acc_desc">Perlu diaktifkan agar queBot dapat bekerja. privasi Anda terjaga dan tidak ada data yang dikumpulkan sama sekali.</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Batal</string>
+    <string name="premium">Anda telah menjadi pengguna premium</string>
+    <string name="not_premium">Beli aplikasi untuk menggunakan fitur ini</string>
+    <string name="tampered">Sepertinya aplikasi rusak. fitur premium tidak akan bekerja</string>
+    <string name="do_not_pirate">Jangan membajak aplikasi. Pembelian tidak akan bekerja kecuali aplikasi bajakan/pembajakan -Lucky Patcher, etc- dihapus</string>
+    <string name="storage_perm">Izin penyimpanan diperlukan untuk menyimpan file ke kartu SD. Penyangkalan dapat menyebabkan aplikasi rusak secara tiba tiba.</string>
+    <string name="loading">Memuat</string>
+    <string name="via_qeubot">- melalui qeuBot</string>
+
+    <!-- Dictionary User Agent -->
+    <string name="template_user_agent" formatted="false">"%s/%s (Linux; Android)"</string>
+
+    <!-- Preference Categories -->
+    <string name="gen_pref_cat">Umum</string>
+    <string name="news_pref_cat">Berita</string>
+    <string name="bing_pref_cat">Bing</string>
+    <string name="giphy_pref_cat">Giphy</string>
+    <string name="about_pref_cat">Tentang</string>
+    <string name="extra_pref_cat">Lainnya</string>
+
+    <!-- Preference Titles -->
+    <string name="append_title">Tambahkan nama aplikasi untuk menambahkan hasil</string>
+    <string name="auto_send_result_title">Kirim hasil secara otomatis</string>
+    <string name="accessibility_title">Layanan aksesibilitas</string>
+    <string name="news_number_title">Jumlah artikel untuk kembali</string>
+    <string name="theme_title">Tema Gelap</string>
+    <string name="bing_safe_title">Pencarian Aman</string>
+    <string name="bing_count_title">Jumlah hasil untuk kembali</string>
+    <string name="bing_api_title">Kunci API Bing</string>
+    <string name="original_gif_title">Dapatkan GIF kualitas tinggi</string>
+    <string name="developer_title">Pengembang</string>
+    <string name="email_title">Email Pengembang</string>
+    <string name="rate_title">Beri rating aplikasi</string>
+    <string name="guide_title">Tampilkan Tutorial</string>
+    <string name="buy_title">Beli Aplikasi</string>
+    <string name="wa_title">Pilih WhatsApp Mod (tidak resmi)</string>
+    <string name="show_toast_title">Tampilkan pesan(toast) pada perintah</string>
+
+    <!-- Preference Summaries -->
+    <string name="append_sum">Tambahkan nama aplikasi untuk hasil akhir</string>
+    <string name="auto_send_result_sum">Kirim hasil secara otomatis</string>
+    <string name="accessibility_on_sum">Layanan aksesibilitas diaktifkan</string>
+    <string name="accessibility_off_sum">Layanan aksesibilitas tampaknya dinonaktifkan. Aktifkan untuk melanjutkan fungsi dari aplikasi.</string>
+    <string name="theme_sum">Gunakan tema gelap diseluruh aplikasi</string>
+    <string name="bing_api_sum">Masukan API Key untuk menggunakan layanan Bing</string>
+    <string name="original_gif_sum">Akan memakan waktu lebih lama untuk memuat dan meningkatkan ukuran file hingga 3 kali lipat (Tidak direkomendasikan)</string>
+    <string name="developer_sum">EatHeat</string>
+    <string name="email_sum">Kirimkan saya email jika Anda ingin setiap fitur yang ditambahkan atau ingin melaporkan bug</string>
+    <string name="rate_sum">Beri bintang dan ucapkan terima kasih jika Anda menikmati aplikasi ini</string>
+    <string name="buy_sum">Beli aplikasi untuk menggunakan semua fitur</string>
+    <string name="show_toast_sum">Berguna ketika anda tidak yakin jika perintah telah dipicu atau tidak (koneksi internet lambat, dll)</string>
+
+    <!-- Imdb Parameters -->
+    <string name="imdb_year">Tahun:\u0020</string>
+    <string name="imdb_released">Keluaran:\u0020</string>
+    <string name="imdb_rated">Nilai (Rating):\u0020</string>
+    <string name="imdb_runtime">Runtime:\u0020</string>
+    <string name="imdb_genre">Genre:\u0020</string>
+    <string name="imdb_director">Direktur:\u0020</string>
+    <string name="imdb_writer">Penulis:\u0020</string>
+    <string name="imdb_actors">Artis:\u0020</string>
+    <string name="imdb_plot">Plot:\u0020</string>
+    <string name="imdb_language">Bahasa:\u0020</string>
+    <string name="imdb_country">Kota:\u0020</string>
+    <string name="imdb_awards">Penghargaan:\u0020</string>
+    <string name="imdb_metascore">Metascore:\u0020</string>
+    <string name="imdb_rating">Nilai imdb:\u0020</string>
+    <string name="imdb_link">Tautan:\u0020</string>
+    <string name="imdb_t_meter">TomatoMeter:\u0020</string>
+    <string name="imdb_t_rating">Nilai Tomato:\u0020</string>
+    <string name="imdb_t_user_rating">Nilai Pengguna Tomato:\u0020</string>
+
+    <!-- Bing -->
+    <string name="bing_safe_off">Mati</string>
+    <string name="bing_safe_moderate">Sedang</string>
+    <string name="bing_safe_strict">Ketat</string>
+
+    <!-- WhatsApp -->
+    <string name="wa_official">WhatsApp Asli (com.whatsapp)</string>
+    <string name="wa_gb">GBWhatsApp (com.gbwhatsapp)</string>
+    <string name="wa_yo">YoWhatsApp (com.yowhatsapp)</string>
+	
+    <!-- Weather Parameters -->
+    <string name="weather_date">"Tanggal:\u0020"</string>
+    <string name="weather_text">"Cuaca:\u0020"</string>
+    <string name="weather_temperature">"Temperatur:\u0020"</string>
+    <string name="weather_wind_speed">"Kecepatan Angin:\u0020"</string>
+    <string name="weather_wind_chill">"Kedinginan Angin:\u0020"</string>
+    <string name="weather_humidity">"Kelembaban:\u0020"</string>
+    <string name="weather_pressure">"Tekanan:\u0020"</string>
+    <string name="weather_visibility">"Jarak Penglihatan:\u0020"</string>
+    <string name="weather_day">"Hari\u0020"</string>
+    <string name="weather_temperature_lowest">"Suhu terendah:\u0020"</string>
+    <string name="weather_temperature_highest">"Suhu tertinggi:\u0020"</string>
+
+    <!-- Error Parameters -->
+   <string name="connect_failed">Gagal terhubung</string>
+    <string name="parse_failed">Gagal mengurai</string>
+    <string name="location_failed">Lokasi tidak ditemukan</string>
+
+    <!-- Introduction Titles -->
+    <string name="it_wiki">Wikipedia</string>
+    <string name="it_calculator">Kalkulator</string>
+    <string name="it_news">Berita</string>
+    <string name="it_imdb">IMDb</string>
+    <string name="it_giphy">Gif</string>
+    <string name="it_bing">Gambar Bing</string>
+    <string name="it_weather">Cuaca</string>
+    <string name="it_horoscope">Horoskop</string>
+
+    <!-- Introduction Summaries -->
+	<string name="is_wiki">"Gunakan perintah @wiki untuk mengambil ringkasan dari setiap artikel Wikipedia \n\nContoh: Paris @wiki"</string>
+    <string name="is_calculator">"Gunakan perintah @calc untuk melakukan perhitungan tepat di dalam kotak teks. Mendukung penambahan, pengurangan, perkalian, pembagian, dan tanda kurung \n\nContoh: (96/8) - 9 * 5 @calc"</string>
+    <string name="is_news">"Gunakan @news untuk mengambil berita tentang subjek apapun \n\nContoh: Android @news"</string>
+    <string name="is_imdb">"Gunakan @imdb untuk mengambil peringkat film. Juga mendukung Rotten Tomatoes \n\nContoh: Inception @imdb"</string>
+    <string name="is_giphy">"Gunakan @gif untuk mengambil gifs dari Giphy \n\nContoh: @gif Cats"</string>
+    <string name="is_bing">"Gunakan @pic untuk mengambil gambar dari Bing \n\nContoh: Emma Watson @pic"</string>
+    <string name="is_weather">"Gunakan @weather untuk mengambil cuaca hari ini dan @forecast untuk perkiraan 5-hari setiap kota \n\nContoh: Miami @weather, Miami @forecast"</string>
+    <string name="is_horoscope">"Gunakan @horoscope untuk mengambil ramalan bintang harian \n\nContoh: Sagitarius @horoscope"</string>
+
+	<!-- Additional Options -->
+	<string name="abc_action_mode_done">Selesai</string>
     <string name="abc_action_bar_home_description">Navigasi ke beranda</string>
     <string name="abc_action_bar_up_description">Navigasi naik</string>
     <string name="abc_action_menu_overflow_description">Opsi lain</string>
@@ -23,120 +150,4 @@
     <string name="appbar_scrolling_view_behavior">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern">%1$d / %2$d</string>
-    <string name="app_name">qeuBot</string>
-    <string name="app_version">Versi 1.05</string>
-    <string name="acc_desc">Perlu diaktifkan agar queBot dapat bekerja. privasi Anda terjaga dan tidak ada data yang dikumpulkan sama sekali.</string>
-    <string name="ok">OK</string>
-    <string name="cancel">Batal</string>
-    <string name="premium">Anda telah menjadi pengguna premium</string>
-    <string name="not_premium">Beli aplikasi untuk menggunakan fitur ini</string>
-    <string name="tampered">Sepertinya aplikasi dirusak. fitur premium tidak akan bekerja</string>
-    <string name="do_not_pirate">Jangan membajak aplikasi. Pembelian tidak akan bekerja kecuali aplikasi bajakan dihapus</string>
-    <string name="storage_perm">Izin penyimpanan diperlukan untuk menyimpan file ke kartu SD. Penyangkalan dapat menyebabkan aplikasi crash secara tiba tiba.</string>
-    <string name="loading">Memuat</string>
-    <string name="template_user_agent" formatted="false">%s/%s (Linux; Android)</string>
-    <string name="gen_pref_cat">Umum</string>
-    <string name="news_pref_cat">Berita</string>
-    <string name="bing_pref_cat">Bing</string>
-    <string name="giphy_pref_cat">Giphy</string>
-    <string name="about_pref_cat">Tentang</string>
-    <string name="extra_pref_cat">Lainnya</string>
-    <string name="append_title">Tambahkan nama aplikasi untuk menambahkan hasil</string>
-    <string name="auto_send_result_title">Kirim hasil secara otomatis</string>
-    <string name="accessibility_title">Layanan aksesibilitas</string>
-    <string name="news_number_title">Jumlah artikel untuk kembali</string>
-    <string name="theme_title">Tema Gelap</string>
-    <string name="bing_safe_title">Pencarian Aman</string>
-    <string name="bing_count_title">Jumlah hasil untuk kembali</string>
-    <string name="bing_api_title">Kunci API Bing</string>
-    <string name="original_gif_title">Dapatkan GIF kualitas tinggi</string>
-    <string name="developer_title">Pengembang</string>
-    <string name="email_title">Email Pengembang</string>
-    <string name="rate_title">Beri rating aplikasi</string>
-    <string name="guide_title">Tampilkan Tutorial</string>
-    <string name="buy_title">Beli Aplikasi</string>
-    <string name="wa_title">Pilih WhatsApp Mod (tidak resmi)</string>
-    <string name="show_toast_title">Tampilkan pesan(toast) pada perintah</string>
-    <string name="append_sum">Menambahkan nama aplikasi untuk hasil akhir</string>
-    <string name="auto_send_result_sum">Kirim hasil secara otomatis</string>
-    <string name="accessibility_on_sum">Layanan aksesibilitas diaktifkan</string>
-    <string name="accessibility_off_sum">Layanan aksesibilitas tampaknya dinonaktifkan. Aktifkan untuk melanjutkan fungsi dari aplikasi.</string>
-    <string name="theme_sum">Gunakan tema gelap diseluruh aplikasi</string>
-    <string name="bing_api_sum">Masukan API Key untuk menggunakan layanan Bing</string>
-    <string name="original_gif_sum">Akan memakan waktu lebih lama untuk memuat dan meningkatkan ukuran file hingga 3 kali lipat (Tidak direkomendasikan)</string>
-    <string name="developer_sum">EatHeat</string>
-    <string name="email_sum">Kirimkan saya email jika Anda ingin setiap fitur yang ditambahkan atau ingin melaporkan bug</string>
-    <string name="rate_sum">Beri bintang dan ucapkan terima kasih jika Anda menikmati aplikasi ini</string>
-    <string name="buy_sum">Beli aplikasi untuk menggunakan semua fitur</string>
-    <string name="show_toast_sum">Berguna ketika tidak yakin jika perintah telah dipicu atau tidak (koneksi internet lambat, dll)</string>
-    <string name="imdb_year">"Tahun: "</string>
-    <string name="imdb_released">"Keluaran: "</string>
-    <string name="imdb_rated">"Dinilai: "</string>
-    <string name="imdb_runtime">"Runtime: "</string>
-    <string name="imdb_genre">"Genre: "</string>
-    <string name="imdb_director">"Direktur: "</string>
-    <string name="imdb_writer">"Penulis: "</string>
-    <string name="imdb_actors">"Aktor: "</string>
-    <string name="imdb_plot">"Plot: "</string>
-    <string name="imdb_language">"Bahasa: "</string>
-    <string name="imdb_country">"Kota: "</string>
-    <string name="imdb_awards">"Penghargaan: "</string>
-    <string name="imdb_metascore">"Metascore: "</string>
-    <string name="imdb_rating">"imdbRating: "</string>
-    <string name="imdb_link">"Link: "</string>
-    <string name="imdb_t_meter">"TomatoMeter: "</string>
-    <string name="imdb_t_rating">"Tomato Rating: "</string>
-    <string name="imdb_t_user_rating">"Tomato User Rating: "</string>
-    <string name="bing_safe_off">Mati</string>
-    <string name="bing_safe_moderate">Sedang</string>
-    <string name="bing_safe_strict">Ketat</string>
-    <string name="wa_official">Official WhatsApp (com.whatsapp)</string>
-    <string name="wa_gb">GBWhatsApp (com.gbwhatsapp)</string>
-    <string name="wa_yo">YoWhatsApp (com.yowhatsapp)</string>
-    <string name="weather_date">"Tanggal: "</string>
-    <string name="weather_text">"Cuaca: "</string>
-    <string name="weather_temperature">"Temperatur: "</string>
-    <string name="weather_wind_speed">"Kecepatan Angin: "</string>
-    <string name="weather_wind_chill">"Kedinginan Angin: "</string>
-    <string name="weather_humidity">"Kelembaban: "</string>
-    <string name="weather_pressure">"Tekanan: "</string>
-    <string name="weather_visibility">"Jarak Penglihatan: "</string>
-    <string name="weather_day">"Hari "</string>
-    <string name="weather_temperature_lowest">"Suhu terendah: "</string>
-    <string name="weather_temperature_highest">"Suhu tertinggi: "</string>
-    <string name="connect_failed">Gagal terhubung</string>
-    <string name="parse_failed">Gagal mengurai</string>
-    <string name="location_failed">Lokasi tidak ditemukan</string>
-    <string name="it_wiki">Wikipedia</string>
-    <string name="it_calculator">Kalkulator</string>
-    <string name="it_news">Berita</string>
-    <string name="it_imdb">IMDb</string>
-    <string name="it_giphy">Gif</string>
-    <string name="it_bing">Gambar Bing</string>
-    <string name="it_weather">Cuaca</string>
-    <string name="it_horoscope">Horoskop</string>
-    <string name="is_wiki">"Gunakan perintah @wiki untuk mengambil ringkasan dari setiap artikel Wikipedia
-
-Contoh: Paris @wiki"</string>
-    <string name="is_calculator">"Gunakan perintah @calc untuk melakukan perhitungan tepat di dalam kotak teks. Mendukung penambahan, pengurangan, perkalian, pembagian, dan tanda kurung
-    
-Contoh: (96/8) - 9 * 5 @calc"</string>
-    <string name="is_news">"Gunakan @news untuk mengambil berita tentang subjek apapun
-
-Contoh: Android @news"</string>
-    <string name="is_imdb">"Gunakan @imdb untuk mengambil peringkat film. Juga mendukung Rotten Tomatoes
-
-Contoh: Inception @imdb"</string>
-    <string name="is_giphy">"Gunakan @gif untuk mengambil gifs dari Giphy
-
-Contoh: @gif Cats"</string>
-    <string name="is_bing">"Gunakan @pic untuk mengambil gambar dari Bing
-
-Contoh: Emma Watson @pic"</string>
-    <string name="is_weather">"Gunakan @weather untuk mengambil cuaca hari ini dan @forecast untuk perkiraan 5-hari setiap kota
-
-Contoh: Miami @weather, Miami @forecast"</string>
-    <string name="is_horoscope">"Gunakan @horoscope untuk mengambil ramalan bintang harian
-
-Contoh: Sagitarius @horoscope"</string>
 </resources>

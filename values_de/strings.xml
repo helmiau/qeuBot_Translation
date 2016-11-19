@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- General -->
+    <string name="app_name">qeuBot</string>
+    <!-- Maybe Version with variables? So you don't have to change the Version in each Language ;) -->
+    <string name="app_version">Version 1.05</string>
+    <string name="acc_desc">Erforderlich, damit qeuBot funktioniert. Deine Privatsphäre wird gewahrt und es werden keine Daten gesammelt.</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Abbrecehn</string>
+    <string name="premium">Du bist schon ein Premium user!</string>
+    <string name="not_premium">Bitte kaufe die App um diese Funktion nutzen zu können.</string>
+    <string name="tampered">Die App scheint manipuliert zu sein. Die Premiumfunktionen werden nicht funktionieren.</string>
+    <string name="do_not_pirate">Bitte kopiere die App nicht. Dein Kauf wird nicht akzeptiert, solange du geklaute Apps nicht deinstallierst.</string>
+    <string name="storage_perm">Berechtigung für Speicher wird benötigt, um Dateien auf die SD-Karte zu schreiben. Wenn du dies ablehnst, funktioniert die App eventuell nicht ordnungsgemäß.</string>
+    <string name="loading">Lädt</string>
+    <string name="via_qeubot">- via qeuBot</string>
+
+    <!-- Dictionary User Agent -->
+    <string name="template_user_agent" formatted="false">"%s/%s (Linux; Android)"</string>
+
+    <!-- Preference Categories -->
+    <string name="gen_pref_cat">Allgemein</string>
+    <string name="news_pref_cat">Nachrichten</string>
+    <string name="bing_pref_cat">Bing</string>
+    <string name="giphy_pref_cat">Giphy</string>
+    <string name="about_pref_cat">Über</string>
+    <string name="extra_pref_cat">Extras</string>
+
+    <!-- Preference Titles -->
+    <string name="append_title">Name der App an die Nachricht anfügen</string>
+    <string name="auto_send_result_title">Nachricht automatisch versenden</string>
+    <string name="accessibility_title">Bedienungshilfen</string>
+    <string name="news_number_title">Anzahl der Nachrichten, die gesendet werden</string>
+    <string name="theme_title">Dunkles Design</string>
+    <string name="bing_safe_title">Safe Search</string>
+    <string name="bing_count_title">Anzahl der Ergebnisse, die gesendet werden</string>
+    <string name="bing_api_title">Bing API Schlüssel</string>
+    <string name="original_gif_title">GIFs mit hoher qualität verwenden</string>
+    <string name="developer_title">Entwickler</string>
+    <string name="email_title">Dem Entwickler eine EMail senden</string>
+    <string name="rate_title">App bewerten</string>
+    <string name="guide_title">Anleitung anzeigen</string>
+    <string name="buy_title">App kaufen</string>
+    <string name="wa_title">Inoffizielle Whatsapp-Mod auswählen</string>
+    <string name="show_toast_title">Toast-Benachrichtigung bei Befehl anzeigen</string>
+
+    <!-- Preference Summaries -->
+    <string name="append_sum">Hängt den Namen der App an jede Nachricht an.</string>
+    <string name="auto_send_result_sum">Sendet die Ergebnisse automatisch ab.</string>
+    <string name="accessibility_on_sum">Bedienungshilfen sind aktivert.</string>
+    <string name="accessibility_off_sum">Bedienungshilfen sind deaktiviert. Sie müssen aktiviert sein, damit die App funktioniert.</string>
+    <string name="theme_sum">Das Dunkle Design verwenden.</string>
+    <string name="bing_api_sum">Bing API-Schlüssel eingeben, um die Bing-Dienste zu nutzen.</string>
+    <string name="original_gif_sum">Dauert länger zum laden und die Dateigröße verdreifacht sich eventuell. (Nicht empfohlen)</string>
+    <string name="developer_sum">EatHeat</string>
+    <string name="email_sum">Sende mir eine EMail, wenn du Anregungen hast oder Fehler bemerkst.</string>
+    <string name="rate_sum">Bewerte die App und bedanke dich somit bei mir.</string>
+    <string name="buy_sum">Kaufe die App, um alle Funktionen nutzen zu können.</string>
+    <string name="show_toast_sum">Sinnvoll, wenn man nicht weiß, ob der Bot den Befehl angenommen hat, oder nicht.</string>
+
+    <!-- Imdb Parameters -->
+    <string name="imdb_year">Jahr:\u0020</string>
+    <string name="imdb_released">Veröffentlicht:\u0020</string>
+    <string name="imdb_rated">Bewertung:\u0020</string>
+    <string name="imdb_runtime">Runtime:\u0020</string>
+    <string name="imdb_genre">Genre:\u0020</string>
+    <string name="imdb_director">Regisseur:\u0020</string>
+    <string name="imdb_writer">Autor:\u0020</string>
+    <string name="imdb_actors">Schauspieler:\u0020</string>
+    <string name="imdb_plot">Handlung:\u0020</string>
+    <string name="imdb_language">Sprache:\u0020</string>
+    <string name="imdb_country">Land:\u0020</string>
+    <string name="imdb_awards">Preise:\u0020</string>
+    <string name="imdb_metascore">Metascore:\u0020</string>
+    <string name="imdb_rating">IMDb Bewertung:\u0020</string>
+    <string name="imdb_link">Link:\u0020</string>
+    <string name="imdb_t_meter">TomatoMeter:\u0020</string>
+    <string name="imdb_t_rating">Tomato Bewertung:\u0020</string>
+    <string name="imdb_t_user_rating">Tomato Benutzer Bewertung:\u0020</string>
+
+    <!-- Bing -->
+    <string name="bing_safe_off">Aus</string>
+    <string name="bing_safe_moderate">Moderat</string>
+    <string name="bing_safe_strict">Strikt</string>
+
+    <!-- WhatsApp -->
+    <string name="wa_official">Offizielles WhatsApp (com.whatsapp)</string>
+    <string name="wa_gb">GBWhatsApp (com.gbwhatsapp)</string>
+    <string name="wa_yo">YoWhatsApp (com.yowhatsapp)</string>
+
+    <!-- Weather Parameters -->
+    <string name="weather_date">Datum:\u0020</string>
+    <string name="weather_text">Wetter:\u0020</string>
+    <string name="weather_temperature">Temperatur:\u0020</string>
+    <string name="weather_wind_speed">Windgeschwindigkeit:\u0020</string>
+    <string name="weather_wind_chill">Windkühle:\u0020</string>
+    <string name="weather_humidity">Luftfeuchtigkeit:\u0020</string>
+    <string name="weather_pressure">Druck:\u0020</string>
+    <string name="weather_visibility">Sicht:\u0020</string>
+    <string name="weather_day">Tag\u0020</string>
+    <string name="weather_temperature_lowest">Niedrigtemperatur:\u0020</string>
+    <string name="weather_temperature_highest">Höchsttemperatur:\u0020</string>
+
+    <!-- Error Parameters -->
+    <string name="connect_failed">Verbindung fehlgeschlagen</string>
+    <string name="parse_failed">Fehler beim parsen</string>
+    <string name="location_failed">Standord nicht gefunden</string>
+
+    <!-- Introduction Titles -->
+    <string name="it_wiki">Wikipedia</string>
+    <string name="it_calculator">Rechner</string>
+    <string name="it_news">Nachrichten</string>
+    <string name="it_imdb">IMDb</string>
+    <string name="it_giphy">Gif</string>
+    <string name="it_bing">Bing Bilder</string>
+    <string name="it_weather">Wetter</string>
+    <string name="it_horoscope">Horoskop</string>
+
+    <!-- Introduction Summaries -->
+    <string name="is_wiki">Nutze @wiki, um eine Zusammenfassung eines Wikipedia Artikels zu bekommen. (auf Englisch) \n\nBeispiel: Paris @wiki</string>
+    <string name="is_calculator">Nutze @calc, um berechnungen in der Textbox durchzuführen. Unterstützt Addition, Subtraktion, Multiplikation, Division and Klammern \n\nBeispiel: (96/8) - 9*5 @calc</string>
+    <string name="is_news">Nutze @news, um die Nachrichten zu einem Thema zu bekommen. (auf Englisch) \n\nBeispiel: Android @news</string>
+    <string name="is_imdb">Nutze @imdb, um Filmbewertungen zu bekommen. Unterstützt auch Rotten Tomatoes. (auf Englisch) \n\nBeispiel: Inception @imdb</string>
+    <string name="is_giphy">Nutze @gif, um GIFs von Giphy zu laden. \n\nBeispiel: Katze @gif</string>
+    <string name="is_bing">Nutze @pic, um Bilder von Bing zu laden. \n\nBeispiel: Emma Watson @pic</string>
+    <string name="is_weather">Nutze @forecast, um das Wetter für den aktuellen Tag und @forecast, um eine 5-Tage Vorhersage für eine Stadt zu bekommen. (auf Englisch) \n\nBeispiel: Berlin @weather, Berlin @forecast</string>
+    <string name="is_horoscope">Nutze @horoscope, um das aktuelle Horoskop zu bekommen. (auf Englisch) \n\nBeispiel: fish @horoscope</string>
+
+</resources>

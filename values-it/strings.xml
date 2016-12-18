@@ -3,7 +3,7 @@
 
     <!-- General -->
     <string name="app_name">qeuBot</string>
-    <string name="app_version">Version 1.05</string>
+    <string name="app_version">Versione\u0020</string>
     <string name="acc_desc">Deve essere attivo perché qeuBot funzioni. Nessun dato verrà collezzionato.</string>
     <string name="ok">OK</string>
     <string name="cancel">Annulla</string>
@@ -25,6 +25,9 @@
     <string name="giphy_pref_cat">Giphy</string>
     <string name="about_pref_cat">Info</string>
     <string name="extra_pref_cat">Extra</string>
+    <string name="wikipedia_pref_cat">Wikipedia</string>
+    <string name="translators_pref_cat">Traduttori</string>
+    <string name="settings_pref_cat">Impostazioni</string>
 
     <!-- Preference Titles -->
     <string name="append_title">Aggiunta nome dell\'app ai risultati</string>
@@ -43,6 +46,7 @@
     <string name="buy_title">Compra l\'app</string>
     <string name="wa_title">Sciegli una mod di WhatsApp</string>
     <string name="show_toast_title">Visualizza un breve messaggio ad ogni comando</string>
+    <string name="wiki_language_title">Imposta la lingua per Wikipedia</string>
 
     <!-- Preference Summaries -->
     <string name="append_sum">Aggoungi il nome dell\'app alla fine dei risultati</string>
@@ -60,7 +64,7 @@
 
     <!-- Imdb Parameters -->
     <string name="imdb_year">Anno:\u0020</string>
-    <string name="imdb_released">Released:\u0020</string>
+    <string name="imdb_released">Rilasciato:\u0020</string>
     <string name="imdb_rated">Voto:\u0020</string>
     <string name="imdb_runtime">Durata:\u0020</string>
     <string name="imdb_genre">Genere:\u0020</string>
@@ -117,13 +121,13 @@
     <string name="it_horoscope">Oroscopo</string>
 
     <!-- Introduction Summaries -->
-    <string name="is_wiki">Usa il comando @wiki per caricare il sommario di ogni argomento \n\nExample: Parigi @wiki</string>
-    <string name="is_calculator">Usa il comando @calc per fare calcoli all\'interno del box di scrittura. Supporta l\'addizione, la sottrazione, la moltiplicazione e le parentesi \n\nExample: (96/8) - 9*5 @calc</string>
-    <string name="is_news">Usa @news per cercare notizie su ogni argomento \n\nExample: Android @news</string>
-    <string name="is_imdb">Usa @imdb per cercare informazioni sui film. Supporta anche Rotten Tomatoes \n\nExample: Inception @imdb</string>
-    <string name="is_giphy">Usa @gif per cercare gif da Giphy \n\nExample: Gatti @gif</string>
-    <string name="is_bing">Usa @pic per cercare immagini su Bing \n\nExample: Emma Watson @pic</string>
-    <string name="is_weather">Usa @weather per caricare il meteo del giorno e @forecast per le previsioni meteo per 5 giorni \n\nExample: Miami @weather, Miami @forecast</string>
-    <string name="is_horoscope">Usa @horoscope per cercare l\'oroscopo del giorno \n\nExample: Sagittarius @horoscope</string>
+    <string name="is_wiki">Usa il comando @wiki per caricare il sommario di ogni argomento \n\nEsempio: Parigi @wiki</string>
+    <string name="is_calculator">Usa il comando @calc per fare calcoli all\'interno del box di scrittura. Supporta l\'addizione, la sottrazione, la moltiplicazione e le parentesi \n\nEsempio: (96/8) - 9*5 @calc</string>
+    <string name="is_news">Usa @news per cercare notizie su ogni argomento \n\nEsempio: Android @news</string>
+    <string name="is_imdb">Usa @imdb per cercare informazioni sui film. Supporta anche Rotten Tomatoes \n\nEsempio: Inception @imdb</string>
+    <string name="is_giphy">Usa @gif per cercare gif da Giphy \n\nEsempio: Gatti @gif</string>
+    <string name="is_bing">Usa @pic per cercare immagini su Bing \n\nEsempio: Emma Watson @pic</string>
+    <string name="is_weather">Usa @weather per caricare il meteo del giorno e @forecast per le previsioni meteo per 5 giorni \n\nEsempio: Miami @weather, Miami @forecast</string>
+    <string name="is_horoscope">Usa @horoscope per cercare l\'oroscopo del giorno \n\nEsempio: Sagittarius @horoscope</string>
 
 </resources>
